@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Speda;
+    src: url('Speda.ttf');
+}
+
+
+body{
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+.head_nav{
+
+
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 100, 150,0.8);
+   
+
+
+}
+
+#arrow_left{
+
+    margin-top: 12px;
+    margin-left: 10px;
+   
+}
+
+
+
+h3{
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+h2{
+
+
+    font-size: 25px;
+    font-family: Speda;
+    margin-left: 48%;
+    margin-top: 80px;
+
+}
+
+.xanw{
+
+
+    width: 350px;
+    height: 200px;
+    background-color: #308a8a;
+    margin-left: 27%;
+    margin-top: 100px;
+    border-radius: 15px;
+   
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    
+}
+#xanw_content{
+    text-decoration: none;
+}
+
+.xanw:hover{
+
+    box-shadow: 0px 0px 2px 2px #308a8a;
+   
+}
+
+.xanw:active{
+
+    background-color: rgba(0, 0, 0,0.5);
+   
+}
+
+
+h4{
+
+    font-family: Speda;
+
+    font-size: 30px;
+  position: relative;
+  top:80px;
+  left: 80px;
+  color: white;
+    
+    
+}
+
+
+
+
+#icon_xanw{
+
+
+    position: relative;
+
+    left: 70%;
+bottom: 5%;
+}
+
+
+
+.shwqa{
+
+
+    width: 350px;
+    height: 200px;
+    background-color: #c3bc57;
+
+ position: relative;
+
+ bottom: 250px;
+    margin-left: 55%;
+  
+    border-radius: 15px;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+   
+    
+}
+#shwqa_content{
+    text-decoration: none;
+}
+
+.shwqa:hover{
+
+    box-shadow: 0px 0px 2px 2px #c3bc57;
+   
+}
+
+
+.shwqa:active{
+
+    background-color: rgba(0, 0, 0,0.5);
+   
+}
+
+
+h5{
+
+    font-family: Speda;
+
+    font-size: 30px;
+  position: relative;
+  top:80px;
+  left: 80px;
+  color: white;
+    
+    
+}
+
+
+#icon_shwqa{
+
+
+    position: relative;
+
+    left: 74%;
+    bottom: 20px;
+
+}

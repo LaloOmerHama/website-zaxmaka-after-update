@@ -1,0 +1,1192 @@
+@font-face {
+    font-family: Speda;
+    src: url('Speda.ttf');
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+    background-color: rgba(220, 209,197, 0.7);
+
+
+
+
+
+}
+
+
+#back_image {
+
+    width: 100%;
+    height: 450px;
+    opacity: 0.4;
+
+
+
+
+}
+
+
+.back_nav {
+
+    width: 100%;
+    height: 110px;
+    background-color: #03787C;
+    position: relative;
+    right: 2px;
+    bottom: 0px;
+    max-width: 100%;
+
+}
+
+.lists {
+
+
+    width: 35%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+
+    margin: 1.7% 0 0 25%;
+
+
+}
+
+#anchor {
+    text-decoration: none;
+    font-family: Speda;
+    font-size: 27px;
+    padding: 50px;
+    color: white;
+    transition: 0.5s;
+
+
+
+}
+
+.info_lists {
+
+
+    display: inline-flex;
+
+
+}
+
+#style_list {
+
+    transition: 0.5s;
+}
+
+#style_list:hover {
+
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+#anchor:hover {
+
+    color: black;
+
+}
+
+
+
+
+
+#name_page {
+
+
+    display: inline-flex;
+
+
+}
+
+
+.Logo {
+
+    text-decoration: none;
+}
+
+#image_web {
+
+    margin: 10px 0px 0px 25px;
+
+
+
+
+}
+
+
+#button_kala {
+
+
+    position: relative;
+    bottom: 75%;
+    left: 68%;
+    background-image: linear-gradient(to right, #83a4d4 0%, #4a7173 45%, #83a4d4 100%);
+    cursor: pointer;
+    border: none;
+
+    padding: 12px 14px;
+    font-family: Speda;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 2px #eee;
+    border-radius: 10px;
+    display: block;
+
+    font-size: 22px;
+
+}
+
+#button_kala:hover {
+
+    background-position: right center;
+  
+    
+    font-size: 24px;
+
+
+
+
+}
+
+#button_content{
+
+text-decoration: none;
+color: white;
+transition: 0.5s;
+
+}
+
+#button_content:hover{
+
+    color: black;
+}
+
+#hazhmar {
+
+
+    text-decoration: none;
+
+    position: relative;
+    left: 86%;
+    bottom: 130px;
+    font-size: 24px;
+    font-family: Speda;
+    color: white;
+    transition: 0.4s;
+}
+
+#proflie_image {
+
+    position: relative;
+    top: 5px;
+    left: 8px;
+    transition: 0.4s;
+
+
+}
+
+#hazhmar:hover {
+
+    color: black;
+    font-size: 27px;
+
+
+}
+
+#proflie_image:hover {
+
+    width: 28px;
+    height: 28px;
+    filter: invert(0%) sepia(0%) saturate(11%) hue-rotate(192deg) brightness(104%) contrast(103%);
+
+}
+
+
+
+
+
+#search {
+
+    position: absolute;
+    top: 0;
+    margin: 25% 0px 0px 31.7%;
+    text-align: right;
+    font-family: Speda;
+    font-size: 22px;
+    padding: 17px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+#image_search:hover {
+
+    box-shadow: 0px 3px 3px 3px gray;
+
+}
+
+#search:hover {
+
+    box-shadow: 0px 3px 3px 3px gray;
+
+}
+
+#image_search {
+    position: absolute;
+    top: 0px;
+    margin: 25% 0px 0px 64.29%;
+    border-style: none solid none none;
+    border-width: 0px;
+    background-color: rgb(3, 120, 124, 0.8);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: 1.0s;
+    padding: 10px;
+
+
+}
+
+#discover {
+    position: absolute;
+    text-align: center;
+    top: 0;
+     font-weight: 800;
+    margin: 20% 0 0 30%;
+    font-size: 35px;
+    font-family: Speda;
+
+}
+
+.khanu1_home {
+
+
+    border: 5px;
+    border-style: solid;
+    border-color: #03787C;
+    border-radius: 25px;
+    margin-left: 50px;
+    display: inline-flex;
+    position: absolute;
+
+}
+
+
+.khanu1_home:hover {
+
+
+    box-shadow: 0px 20px 20px 20px gray;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+.khanwi1 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    left: 10%;
+
+}
+
+#id_khanwi1 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: firebrick;
+
+
+}
+
+.rwbar {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: chocolate;
+}
+
+#line {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+
+
+.khanwi2 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    left: 5%;
+    position: absolute;
+    top: 0px;
+    margin-top: 33.45%;
+
+
+    margin-left: 32%;
+
+}
+
+#id_khanwi2 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx2 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: blue;
+
+
+}
+
+.rwbar2 {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: #03787C;
+}
+
+#line2 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan2 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan2 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+.khanwi3 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    left: 5%;
+    
+position: absolute;
+    margin-left: 59%;
+    margin-top: 30.85%;
+
+}
+
+#id_khanwi3 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx3 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: olive;
+
+
+}
+
+.rwbar3 {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: orangered;
+}
+
+#line3 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan3 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan3 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+
+
+
+.khanwi4 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 10%;
+
+
+}
+
+#id_khanwi4 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx4 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: indigo;
+
+
+}
+
+.rwbar4 {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: tomato;
+}
+
+#line4 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan4 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan4 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+.khanwi5 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 10%;
+
+    position: absolute;
+    top: 0px;
+
+    margin-left: 27%;
+    margin-top: 48%;
+
+
+}
+
+#id_khanwi5 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx5 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: black;
+
+
+}
+
+.rwbar5 {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: cadetblue;
+}
+
+#line5 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan5 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 2%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan5 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 39%;
+    margin-left: 42%;
+}
+
+
+
+
+.shwqa1{
+
+    width: 150px;
+    height: 30px;
+    background-color: lime;
+    padding: 0px 10px 0px 10px;
+    font-size: 16px;
+    font-family: Speda;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+
+#shwqa_text{
+position: relative;
+bottom: 17px;
+
+}
+
+
+
+
+
+
+
+.khanwi6 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 10%;
+    position: absolute;
+  
+
+    margin-top: 41.5%;
+    margin-left: 54%;
+
+    
+
+}
+
+#id_khanwi6 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx6 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: rgb(224, 50, 50);
+
+
+}
+
+.rwbar6 {
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: deeppink;
+}
+
+#line6 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan6 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan6 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+.shwqa2{
+
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+    padding: 0px 10px 0px 10px;
+    font-size: 16px;
+    font-family: Speda;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+
+#shwqa_text2{
+position: relative;
+bottom: 17px;
+
+}
+
+
+
+.khanwi7 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 10%;
+
+    
+
+}
+
+#id_khanwi7 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx7 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: darkgreen;
+
+
+}
+
+.rwbar7{
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color:black;
+}
+
+#line7 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan7 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan7 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+
+
+
+
+.khanwi8 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 10%;
+    position: absolute;
+
+    margin-top: 52.3%;
+    margin-left: 27%;
+
+    
+
+}
+
+#id_khanwi8 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx8 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: crimson;
+
+
+}
+
+.rwbar8{
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: rgb(65, 64, 64);
+}
+
+#line8 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan8 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan8 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+
+
+
+
+
+
+.khanwi9 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 10%;
+  
+ position: absolute;
+
+ margin-top: 52.2%;
+ margin-left: 54%;
+
+    
+
+}
+
+#id_khanwi9 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx9 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: darkgoldenrod;
+
+
+}
+
+.rwbar9{
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: cornflowerblue;
+}
+
+#line9 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan9 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan9 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
+
+
+
+
+
+
+
+
+.khanwi10 {
+
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px gray;
+    max-width: 380px;
+    border-radius: 20px;
+    position: relative;
+    top: 280px;
+    left: 10%;
+  
+
+
+    
+
+}
+
+#id_khanwi10 {
+
+    border-radius: 20px;
+    position: relative;
+    left: 51%;
+    top: 8px;
+}
+
+
+.nrx10 {
+
+
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Speda;
+    font-size: 17px;
+    color: midnightblue;
+
+
+}
+
+.rwbar10{
+
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 17%;
+    margin-left: 12%;
+    color: chocolate;
+}
+
+#line10 {
+    color: gray;
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    margin-top: 38%;
+}
+
+.nawnishan10 {
+    position: absolute;
+    top: 0px;
+    font-family: Speda;
+    font-size: 17px;
+    margin-top: 38%;
+    margin-left: 8%;
+
+    color: black;
+
+}
+
+.wenai_nawnishan10 {
+    position: absolute;
+    top: 0px;
+
+    margin-top: 43.7%;
+    margin-left: 42%;
+}
